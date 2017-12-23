@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ccc : Colour Code Converter - Neo's GitHub Pages</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body id="neos21-github-io">
+    <header id="header">
+      <div id="logo"><a href="../index.html">Neo's GitHub Pages</a></div>
+    </header>
+    <main id="main">
+      <section>
+        <h1>ccc : Colour Code Converter</h1>
+        <p><a href="https://www.npmjs.com/package/@neos21/ccc"><img src="https://img.shields.io/npm/v/@neos21/ccc.svg" alt="NPM Version" title="NPM Version"></a></p>
+        <section>
+          <h2>CLI</h2>
+          <section>
+            <h3>Installation</h3>
+            <pre><code>$ npm install -g @neos21/ccc</code></pre>
+          </section>
+          <section>
+            <h3>How To Use</h3>
+            <pre><code>
+# Colour Code
+$ ccc 39c        # -&gt; 51,153,204
+$ ccc ff8000     # -&gt; 255,128,0
+$ ccc '#007AFF'  # -&gt; 0,122,255
+
+# RGB Code
+$ ccc 0 128 255  # -&gt; #0080ff
+$ ccc 255,30,48  # -&gt; #ff1e30</code></pre>
+          </section>
+        </section>
+        <section>
+          <h2>API</h2>
+          <section>
+            <h3>Installation</h3>
+            <pre><code>$ npm install --save @neos21/ccc</code></pre>
+          </section>
+          <section>
+            <h3>How To Use</h3>
+            <pre><code>const ccc = require('@neos21/ccc');
+
+// Colour Code
+ccc('39c');      // -&gt; [ 51, 153, 204 ]
+ccc('ff8000');   // -&gt; [ 255, 128, 0 ]
+ccc('#007AFF');  // -&gt; [ 0, 122, 255 ]
+
+// RGB Code
+ccc('0, 128, 255');  // -&gt; '#0080ff'
+ccc([255, 30, 48]);  // -&gt; '#ff1e30'</code></pre>
+          </section>
+        </section>
+        <section>
+          <h2>Author</h2>
+          <p><a href="http://neo.s21.xrea.com/">Neo</a> (<a href="https://twitter.com/neos21">@Neos21</a>)</p>
+          <ul>
+            <li><a href="https://github.com/Neos21GitHub/ccc">GitHub - ccc</a></li>
+            <li><a href="https://www.npmjs.com/package/@neos21/ccc">npm - @neos21/ccc</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2>Links</h2>
+          <ul>
+            <li><a href="http://neo.s21.xrea.com/">Neo's World</a></li>
+            <li><a href="http://neos21.hatenablog.com/">Corredor</a></li>
+            <li><a href="http://neos21.hatenablog.jp/">Murga</a></li>
+            <li><a href="http://neos21.hateblo.jp/">El Mylar</a></li>
+            <li><a href="http://bit-archer.hatenablog.com/">Bit-Archer</a></li>
+            <li><a href="https://github.com/Neos21GitHub/">GitHub - Neos21GitHub</a></li>
+          </ul>
+        </section>
+      </section>
+    </main>
+    <footer id="footer">
+      <div id="copyright"><small>Copyright &copy; 2016-2017 <a href="../index.html">Neo</a>, All rights reserved.</small></div>
+    </footer>
+  </body>
+</html>
