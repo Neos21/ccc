@@ -53,8 +53,8 @@ ccc([255, 30, 48]);  // -> '#ff1e30'
 
 [Neo](http://neo.s21.xrea.com/) ([@Neos21](https://twitter.com/neos21))
 
-- [GitHub - ccc](https://github.com/Neos21GitHub/ccc)
-- [GitHub Pages - ccc](https://neos21github.github.io/ccc/)
+- [GitHub - ccc](https://github.com/Neos21/ccc)
+- [GitHub Pages - ccc](https://neos21.github.io/ccc/)
 - [npm - @neos21/ccc](https://www.npmjs.com/package/@neos21/ccc)
 
 
@@ -65,4 +65,4 @@ ccc([255, 30, 48]);  // -> '#ff1e30'
 - [Murga](http://neos21.hatenablog.jp/)
 - [El Mylar](http://neos21.hateblo.jp/)
 - [Bit-Archer](http://bit-archer.hatenablog.com/)
-- [GitHub - Neos21GitHub](https://github.com/Neos21GitHub/)
+- [GitHub - Neos21](https://github.com/Neos21/)
