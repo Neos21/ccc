@@ -5,10 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ccc : Colour Code Converter - Neo's GitHub Pages</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://neos21.github.io/styles.css">
     <link rel="icon" href="/favicon.ico">
     <link rel="icon" href="/favicon-192x192.png" sizes="192x192" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon-152x152.png" sizes="152x152">
+    <style>
+
+#demo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#input,
+#exec,
+#output {
+  height: 1.8rem;
+}
+
+#input,
+#output {
+  flex-grow: 2;
+}
+
+#exec {
+  flex-grow: 1;
+  margin: 0 1rem;
+}
+
+    </style>
     <script src="ccc.js"></script>
     <script>
 
@@ -35,11 +59,11 @@ document.addEventListener('DOMContentLoaded', function() {
         <p><a href="https://www.npmjs.com/package/@neos21/ccc"><img src="https://img.shields.io/npm/v/@neos21/ccc.svg" alt="NPM Version" title="NPM Version"></a></p>
         <section>
           <h2>Demo</h2>
-          <p>
-            <input type="text" id="input" value="" placeholder="Input a colour code or RGB code here.">
+          <p id="demo">
+            <input type="text" id="input" value="" placeholder="Input Colour Here">
             <input type="button" id="exec" value="Convert">
+            <input type="text" id="output" value="" placeholder="Result" readonly>
           </p>
-          <p><input type="text" id="output" value="" placeholder="Result" readonly></p>
         </section>
         <section>
           <h2>CLI</h2>
