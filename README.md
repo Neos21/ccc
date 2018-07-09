@@ -53,7 +53,7 @@ ccc([255, 30, 48]);  // -> '#ff1e30'
 
 ## Author
 
-[Neo](http://neo.s21.xrea.com/) ([@Neos21](https://twitter.com/neos21))
+[Neo](http://neo.s21.xrea.com/) ([@Neos21](https://twitter.com/Neos21))
 
 - [GitHub - ccc](https://github.com/Neos21/ccc)
 - [GitHub Pages - ccc](https://neos21.github.io/ccc/)
