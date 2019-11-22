@@ -1,19 +1,23 @@
 {
   "name": "@neos21/ccc",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ccc : Colour Code Converter",
-  "main": "ccc.js",
+  "main": "main.js",
   "bin": {
-    "ccc": "bin.js"
+    "ccc": "cli.js"
   },
+  "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/ccc#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Neos21/ccc.git"
   },
-  "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Neos21/ccc/issues"
   },
-  "homepage": "https://github.com/Neos21/ccc#readme"
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  }
 }

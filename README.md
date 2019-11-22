@@ -1,4 +1,4 @@
-# ccc : Colour Code Converter
+# ccc : Colour Code Converter : @neos21/ccc
 
 [![NPM Version](https://img.shields.io/npm/v/@neos21/ccc.svg)](https://www.npmjs.com/package/@neos21/ccc)
 
@@ -56,7 +56,7 @@ ccc([255, 30, 48]);  // -> '#ff1e30'
 [Neo](http://neo.s21.xrea.com/) ([@Neos21](https://twitter.com/Neos21))
 
 - [GitHub - ccc](https://github.com/Neos21/ccc)
-- [GitHub Pages - ccc](https://neos21.github.io/ccc/)
+- [GitHub Pages - ccc : Colour Code Converter : @neos21/ccc](https://neos21.github.io/ccc/)
 - [npm - @neos21/ccc](https://www.npmjs.com/package/@neos21/ccc)
 
 
