@@ -1,6 +1,6 @@
 {
   "name": "@neos21/ccc",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "ccc : Colour Code Converter",
   "main": "main.js",
   "bin": {
