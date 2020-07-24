@@ -1,6 +1,6 @@
 # ccc : Colour Code Converter : @neos21/ccc
 
-[![NPM Version](https://img.shields.io/npm/v/@neos21/ccc.svg)](https://www.npmjs.com/package/@neos21/ccc)
+[![NPM Version](https://img.shields.io/npm/v/@neos21/ccc.svg)](https://www.npmjs.com/package/@neos21/ccc)  [![GPR Version](https://img.shields.io/github/package-json/v/neos21/ccc?label=github)](https://github.com/Neos21/ccc/packages/327426)
 
 __[Demo Page Here](https://neos21.github.io/ccc/)__
 
