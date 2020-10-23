@@ -2,7 +2,6 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ccc : Colour Code Converter : @neos21/ccc - Neo's GitHub Pages</title>
     <link rel="stylesheet" href="/styles.css">
@@ -33,27 +32,25 @@
 }
 
     </style>
-    <script src="main.js"></script>
+    <script src="./main.js"></script>
     <script>
 
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('exec').addEventListener('click', function() {
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('exec').addEventListener('click', () => {
     try {
       document.getElementById('output').value = ccc(document.getElementById('input').value);
     }
     catch(error) {
-      // Nothing
+      console.warn(error);
     }
   });
 });
 
     </script>
   </head>
-  <body id="neos21-github-io">
-    <header id="header">
-      <div id="logo"><a href="../index.html">Neo's GitHub Pages</a></div>
-    </header>
-    <main id="main">
+  <body>
+    <header><a href="/index.html">Neo's GitHub Pages</a></header>
+    <main>
       <section>
         <h1>ccc : Colour Code Converter</h1>
         <p>
@@ -128,8 +125,6 @@ ccc([255, 30, 48]);  // -&gt; '#ff1e30'</code></pre>
         </section>
       </section>
     </main>
-    <footer id="footer">
-      <div id="copyright"><small>Copyright &copy; 2016-2020 <a href="../index.html">Neo</a>, All rights reserved.</small></div>
-    </footer>
+    <footer>Copyright &copy; 2016-2020 <a href="/index.html">Neo</a>, All rights reserved.</footer>
   </body>
 </html>
