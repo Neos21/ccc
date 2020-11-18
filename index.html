@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ccc : Colour Code Converter : @neos21/ccc - Neo's GitHub Pages</title>
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="icon" href="/favicon.ico">
-    <link rel="icon" href="/favicon-192x192.png" sizes="192x192" type="image/png">
-    <link rel="apple-touch-icon" href="/apple-touch-icon-152x152.png" sizes="152x152">
+    <title>@neos21/ccc : Colour Code Converter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@neos21/neos-normalize@2.0.1/neos-normalize.min.css">
+    <link rel="icon" href="https://neos21.github.io/favicon.ico">
     <style>
+
+body {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
 
 #demo {
   display: flex;
@@ -49,31 +53,25 @@ document.addEventListener('DOMContentLoaded', () => {
     </script>
   </head>
   <body>
-    <header><a href="/index.html">Neo's GitHub Pages</a></header>
-    <main>
-      <section>
-        <h1>ccc : Colour Code Converter</h1>
-        <p>
-          <a href="https://www.npmjs.com/package/@neos21/ccc"><img src="https://img.shields.io/npm/v/@neos21/ccc.svg" alt="NPM Version" title="NPM Version"></a>
-          <a href="https://github.com/Neos21/ccc/packages/327426"><img src="https://img.shields.io/github/package-json/v/neos21/ccc?label=github" alt="GPR Version" title="GPR Version"></a>
-        </p>
-        <section>
-          <h2>Demo</h2>
-          <p id="demo">
-            <input type="text" id="input" value="" placeholder="Input Colour Here">
-            <input type="button" id="exec" value="Convert">
-            <input type="text" id="output" value="" placeholder="Result" readonly>
-          </p>
-        </section>
-        <section>
-          <h2>CLI</h2>
-          <section>
-            <h3>Installation</h3>
-            <pre><code>$ npm install -g @neos21/ccc</code></pre>
-          </section>
-          <section>
-            <h3>How To Use</h3>
-            <pre><code># Colour Code
+
+<h1>@neos21/ccc : Colour Code Converter</h1>
+<p>
+  <a href="https://www.npmjs.com/package/@neos21/ccc"><img src="https://img.shields.io/npm/v/@neos21/ccc.svg" alt="NPM Version" title="NPM Version"></a>
+  <a href="https://github.com/Neos21/ccc/packages/327426"><img src="https://img.shields.io/github/package-json/v/neos21/ccc?label=github" alt="GPR Version" title="GPR Version"></a>
+</p>
+
+<h2>Demo</h2>
+<p id="demo">
+  <input type="text" id="input" value="" placeholder="Input Colour Here">
+  <input type="button" id="exec" value="Convert">
+  <input type="text" id="output" value="" placeholder="Result" readonly>
+</p>
+
+<h2>CLI</h2>
+<h3>Installation</h3>
+<pre><code>$ npm install -g @neos21/ccc</code></pre>
+<h3>How To Use</h3>
+<pre><code># Colour Code
 $ ccc 39c        # -&gt; 51,153,204
 $ ccc ff8000     # -&gt; 255,128,0
 $ ccc '#007AFF'  # -&gt; 0,122,255
@@ -81,17 +79,12 @@ $ ccc '#007AFF'  # -&gt; 0,122,255
 # RGB Code
 $ ccc 0 128 255  # -&gt; #0080ff
 $ ccc 255,30,48  # -&gt; #ff1e30</code></pre>
-          </section>
-        </section>
-        <section>
-          <h2>API</h2>
-          <section>
-            <h3>Installation</h3>
-            <pre><code>$ npm install --save @neos21/ccc</code></pre>
-          </section>
-          <section>
-            <h3>How To Use</h3>
-            <pre><code>const ccc = require('@neos21/ccc');
+
+<h2>API</h2>
+<h3>Installation</h3>
+<pre><code>$ npm install --save @neos21/ccc</code></pre>
+<h3>How To Use</h3>
+<pre><code>const ccc = require('@neos21/ccc');
 
 // Colour Code
 ccc('39c');          // -&gt; [ 51, 153, 204 ]
@@ -101,30 +94,15 @@ ccc('#007AFF');      // -&gt; [ 0, 122, 255 ]
 // RGB Code
 ccc('0, 128, 255');  // -&gt; '#0080ff'
 ccc([255, 30, 48]);  // -&gt; '#ff1e30'</code></pre>
-          </section>
-        </section>
-        <section>
-          <h2>Author</h2>
-          <p><a href="http://neo.s21.xrea.com/">Neo</a></p>
-          <ul>
-            <li><a href="https://github.com/Neos21/ccc">GitHub - ccc</a></li>
-            <li><a href="https://neos21.github.io/ccc/">GitHub Pages - ccc : Colour Code Converter : @neos21/ccc</a></li>
-            <li><a href="https://www.npmjs.com/package/@neos21/ccc">npm - @neos21/ccc</a></li>
-          </ul>
-        </section>
-        <section>
-          <h2>Links</h2>
-          <ul>
-            <li><a href="http://neo.s21.xrea.com/">Neo's World</a></li>
-            <li><a href="https://neos21.hatenablog.com/">Corredor</a></li>
-            <li><a href="https://neos21.hatenablog.jp/">Murga</a></li>
-            <li><a href="https://neos21.hateblo.jp/">El Mylar</a></li>
-            <li><a href="https://neos21.github.io/">Neo's GitHub Pages</a></li>
-            <li><a href="https://github.com/Neos21/">GitHub - Neos21</a></li>
-          </ul>
-        </section>
-      </section>
-    </main>
-    <footer>Copyright &copy; 2016-2020 <a href="/index.html">Neo</a>, All rights reserved.</footer>
+
+<h2>Links</h2>
+<ul>
+  <li><a href="https://neos21.net/">Neo's World</a></li>
+  <li><a href="https://github.com/Neos21/">GitHub - Neos21</a></li>
+  <li><a href="https://github.com/Neos21/ccc">GitHub - ccc</a></li>
+  <li><a href="https://neos21.github.io/ccc/">GitHub Pages - @neos21/ccc : Colour Code Converter</a></li>
+  <li><a href="https://www.npmjs.com/package/@neos21/ccc">npm - @neos21/ccc</a></li>
+</ul>
+
   </body>
 </html>

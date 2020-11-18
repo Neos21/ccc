@@ -1,4 +1,4 @@
-# ccc : Colour Code Converter : @neos21/ccc
+# @neos21/ccc : Colour Code Converter
 
 [![NPM Version](https://img.shields.io/npm/v/@neos21/ccc.svg)](https://www.npmjs.com/package/@neos21/ccc) [![GPR Version](https://img.shields.io/github/package-json/v/neos21/ccc?label=github)](https://github.com/Neos21/ccc/packages/327426)
 
@@ -51,20 +51,10 @@ ccc([255, 30, 48]);  // -> '#ff1e30'
 ```
 
 
-## Author
-
-[Neo](http://neo.s21.xrea.com/)
-
-- [GitHub - ccc](https://github.com/Neos21/ccc)
-- [GitHub Pages - ccc : Colour Code Converter : @neos21/ccc](https://neos21.github.io/ccc/)
-- [npm - @neos21/ccc](https://www.npmjs.com/package/@neos21/ccc)
-
-
 ## Links
 
-- [Neo's World](http://neo.s21.xrea.com/)
-- [Corredor](https://neos21.hatenablog.com/)
-- [Murga](https://neos21.hatenablog.jp/)
-- [El Mylar](https://neos21.hateblo.jp/)
-- [Neo's GitHub Pages](https://neos21.github.io/)
+- [Neo's World](https://neos21.net/)
 - [GitHub - Neos21](https://github.com/Neos21/)
+- [GitHub - ccc](https://github.com/Neos21/ccc)
+- [GitHub Pages - @neos21/ccc : Colour Code Converter](https://neos21.github.io/ccc/)
+- [npm - @neos21/ccc](https://www.npmjs.com/package/@neos21/ccc)
